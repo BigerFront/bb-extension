@@ -1,0 +1,8 @@
+*                   text=auto
+CHANGELOG.md        merge=union
+
+# Reviewing the lockfile
+package-lock.json   linguist-generated=false
+yarn.lock           linguist-generated=false
+
+test/e2e/send-eth-with-private-key-test/ethereumjs-tx.js linguist-vendored linguist-generated

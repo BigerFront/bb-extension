@@ -1,0 +1,9 @@
+node_modules/**
+dist/**
+builds/**
+test-builds/**
+docs/**
+coverage/
+
+
+package-lock.json

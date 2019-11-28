@@ -2,12 +2,30 @@
   "name": "bas-extension",
   "version": "0.0.1",
   "description": "The BlockChain Address Service Extendsion",
-  "main": "index.js",
   "repository": "git@work:BigerFront/bb-extension.git",
   "author": "Aventador-lab <basex@hotmail.com>",
   "license": "MIT",
+  "private": true,
+  "scripts": {},
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-eslint": "^10.0.3",
+    "chai": "^4.2.0",
+    "eslint": "^6.7.1",
+    "eslint-plugin-chai": "^0.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-mocha": "^6.2.2",
+    "eslint-plugin-react": "^7.16.0",
     "stylelint": "^12.0.0",
     "webpack": "^4.41.2"
+  },
+  "resolutions": {
+    "3box/ipfs/ipld-zcash/zcash-bitcore-lib/lodash": "^4.17.12"
+  },
+  "dependencies": {
+    "3box": "^1.13.2",
+    "@babel/runtime": "^7.7.4"
   }
 }
