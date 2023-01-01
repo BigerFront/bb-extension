@@ -19,7 +19,7 @@
     "eslint-plugin-mocha": "^6.2.2",
     "eslint-plugin-react": "^7.16.0",
     "stylelint": "^12.0.0",
-    "webpack": "^4.41.2"
+    "webpack": "^5.75.0"
   },
   "resolutions": {
     "3box/ipfs/ipld-zcash/zcash-bitcore-lib/lodash": "^4.17.12"
